@@ -1,0 +1,50 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.1.5",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@tanstack/react-query": "^4.32.0",
+    "@types/node": "20.5.6",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@vercel/analytics": "^1.0.2",
+    "@vercel/og": "^0.5.11",
+    "@videojs/http-streaming": "^3.0.2",
+    "@vidstack/react": "^0.6.13",
+    "autoprefixer": "10.4.15",
+    "axios": "^1.4.0",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "eslint-config-react-app": "^7.0.1",
+    "framer-motion": "^10.16.1",
+    "hls.js": "^1.4.10",
+    "next": "13.4.19",
+    "nextjs-google-adsense": "^1.0.0",
+    "pocketbase": "^0.16.0",
+    "postcss": "8.4.28",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-player": "^2.12.0",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2",
+    "video.js": "^8.3.0",
+    "vidstack": "^0.6.13"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.3"
+  }
+}
