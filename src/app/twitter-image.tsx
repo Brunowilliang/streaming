@@ -19,10 +19,10 @@ export default async function Image() {
           textAlign: 'center',
         }}
         >
-        <div style={{ fontSize: 50, fontWeight: 'bold', color: '#FFFFFF' }}>
+        <div style={{ fontSize: 60, fontWeight: 'bold', color: '#FFFFFF' }}>
           CineFlix
         </div>
-        <div style={{ fontSize: 30, fontWeight: 'normal', color: '#FFFFFF' }}>
+        <div style={{ fontSize: 40, fontWeight: 'normal', color: '#FFFFFF' }}>
           Onde o Cinema Ganha Vida
         </div>
       </div>
