@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import { Providers } from './providers'
+import Script from 'next/script'
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -13,9 +14,6 @@ export const metadata: Metadata = {
   applicationName: 'CineFlix',
   creator: 'Bruno Garcia',
   publisher: 'CineFlix',
-  openGraph: {
-    
-  },
   title: 'CineFlix | Onde o Cinema Ganha Vida',
   description: 'Mergulhe no CineFlix, onde paixão e cinema se encontram. Assista aos lançamentos mais recentes, a qualquer hora, em qualquer lugar.',
   authors: [{ name: 'Bruno Garcia', url: 'https://brunowillian.com' }],
@@ -30,6 +28,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </Providers>
       </body>
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9513215669385884"
+        crossOrigin='anonymous'
+      />
     </html>
   )
 }

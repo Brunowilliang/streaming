@@ -16,6 +16,7 @@ const config: Config = {
   darkMode: "class",
   plugins: [
     require("tailwind-scrollbar-hide"),
+    require('tailwindcss-safe-area'),
     require("vidstack/tailwind.cjs")({
       prefix: "media",
     }),

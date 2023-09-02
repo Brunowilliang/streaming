@@ -13,48 +13,17 @@ export default async function Image() {
           alignItems: 'center',
           justifyContent: 'center',
           flexDirection: 'column',
-          backgroundImage: 'linear-gradient(to bottom, #dbf4ff, #fff1f1)',
-          fontSize: 80,
+          backgroundColor: '#6D38E0',
           letterSpacing: -2,
           fontWeight: 900,
           textAlign: 'center',
         }}
         >
-        <div
-          style={{
-            backgroundImage: 'linear-gradient(90deg, rgb(255, 0, 128), rgb(121, 40, 202))',
-            backgroundClip: 'text',
-            color: 'transparent',
-          }}
-        >
-          CineFlix | Onde o Cinema Ganha Vida
+        <div style={{ fontSize: 40, fontWeight: 'bold', color: '#FFFFFF' }}>
+          CineFlix
         </div>
-        <div
-          style={{
-            backgroundImage: 'linear-gradient(90deg, rgb(0, 124, 240), rgb(0, 223, 216))',
-            backgroundClip: 'text',
-            color: 'transparent',
-          }}
-        >
-          Explorar
-        </div>
-        <div
-          style={{
-            backgroundImage: 'linear-gradient(90deg, rgb(121, 40, 202), rgb(255, 0, 128))',
-            backgroundClip: 'text',
-            color: 'transparent',
-          }}
-        >
-          Maratonar
-        </div>
-        <div
-          style={{
-            backgroundImage: 'linear-gradient(90deg, rgb(255, 77, 77), rgb(249, 203, 40))',
-            backgroundClip: 'text',
-            color: 'transparent',
-          }}
-        >
-          Desfrutar
+        <div style={{ fontSize: 25, fontWeight: 'normal', color: '#FFFFFF' }}>
+          Onde o Cinema Ganha Vida
         </div>
       </div>
     ),
