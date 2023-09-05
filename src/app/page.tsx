@@ -100,7 +100,7 @@ export default function Home() {
       className={'mx-auto flex flex-col min-h-screen max-w-5xl bg-slate-100'}
     >
       {/* tabs */}
-      <div className="fixed left-0 top-0 z-10 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-300 pb-4 pt-7 backdrop-blur-sm">
+      <div className="fixed left-0 top-0 z-10 flex w-full justify-center border-b border-gray-300 pb-4 pt-7 backdrop-blur-md">
         <div
           className="relative flex h-10 overflow-x-scroll scrollbar-hide"
           style={{
@@ -116,7 +116,7 @@ export default function Home() {
               ${
                 activeTab === group.id
                   ? "text-white font-semibold"
-                  : "text-black font-medium"
+                  : "text-slate-800 font-medium"
               }`}
               onClick={() => scrollTo(group)}
             >

@@ -33,19 +33,21 @@ export type AuthSystemFields<T = never> = {
 // Record types for each collection
 
 export type GroupsRecord = {
+	order?: number
 	title?: string
+	visible?: boolean
 }
 
 export type MoviesRecord = {
-	title?: string
 	group?: RecordIdString
-	url?: string
 	logo?: string
+	title?: string
+	url?: string
 }
 
 export type UsersRecord = {
-	name?: string
 	avatar?: string
+	name?: string
 }
 
 // Response types include system fields and match responses from the PocketBase API

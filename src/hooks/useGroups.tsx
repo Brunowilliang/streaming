@@ -29,7 +29,10 @@ export default function useGroups() {
 
 async function getGroups() {
   try {
-    const response = await pb.collection(Collections.Groups).getFullList();
+    const response = await pb.collection(Collections.Groups).getFullList({
+      filter: 'visible = true',
+      sort: 'order'
+    });
     return response as any
   } catch (error) {
     console.log(error)
